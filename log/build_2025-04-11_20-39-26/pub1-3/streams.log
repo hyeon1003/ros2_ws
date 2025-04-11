@@ -1,0 +1,67 @@
+[0.011s] Invoking command in '/home/linux/ros2_ws/build/pub1-3': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(ros2) /usr/bin/cmake /home/linux/ros2_ws/src/pub1-3 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/linux/ros2_ws/install/pub1-3
+[0.186s] -- The C compiler identification is GNU 9.4.0
+[0.352s] -- The CXX compiler identification is GNU 9.4.0
+[0.393s] -- Check for working C compiler: /usr/bin/cc
+[0.474s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.475s] -- Detecting C compiler ABI info
+[0.561s] -- Detecting C compiler ABI info - done
+[0.568s] -- Detecting C compile features
+[0.568s] -- Detecting C compile features - done
+[0.571s] -- Check for working CXX compiler: /usr/bin/c++
+[0.661s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.662s] -- Detecting CXX compiler ABI info
+[0.737s] -- Detecting CXX compiler ABI info - done
+[0.744s] -- Detecting CXX compile features
+[0.744s] -- Detecting CXX compile features - done
+[0.749s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.774s] -- Found PythonInterp: /home/linux/anaconda3/envs/ros2/bin/python3 (found suitable version "3.8.20", minimum required is "3") 
+[0.774s] -- Using PYTHON_EXECUTABLE: /home/linux/anaconda3/envs/ros2/bin/python3
+[0.937s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.961s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.071s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.079s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.590s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[2.059s] -- Found FastRTPS: /opt/ros/foxy/include  
+[2.911s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.960s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[2.961s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.963s] -- Looking for pthread.h
+[3.039s] -- Looking for pthread.h - found
+[3.039s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.108s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[3.108s] -- Looking for pthread_create in pthreads
+[3.170s] -- Looking for pthread_create in pthreads - not found
+[3.170s] -- Looking for pthread_create in pthread
+[3.252s] -- Looking for pthread_create in pthread - found
+[3.253s] -- Found Threads: TRUE  
+[3.379s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[3.464s] -- Configuring done
+[3.470s] -- Generating done
+[3.472s] -- Build files have been written to: /home/linux/ros2_ws/build/pub1-3
+[3.477s] Invoked command in '/home/linux/ros2_ws/build/pub1-3' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(ros2) /usr/bin/cmake /home/linux/ros2_ws/src/pub1-3 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/linux/ros2_ws/install/pub1-3
+[3.479s] Invoking command in '/home/linux/ros2_ws/build/pub1-3': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(ros2) /usr/bin/cmake --build /home/linux/ros2_ws/build/pub1-3 -- -j20 -l20
+[3.505s] [35m[1mScanning dependencies of target pub1-3[0m
+[3.582s] [ 50%] [32mBuilding CXX object CMakeFiles/pub1-3.dir/src/pub1-3.cpp.o[0m
+[5.340s] [100%] [32m[1mLinking CXX executable pub1-3[0m
+[5.490s] [100%] Built target pub1-3
+[5.497s] Invoked command in '/home/linux/ros2_ws/build/pub1-3' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(ros2) /usr/bin/cmake --build /home/linux/ros2_ws/build/pub1-3 -- -j20 -l20
+[5.505s] Invoking command in '/home/linux/ros2_ws/build/pub1-3': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(ros2) /usr/bin/cmake --install /home/linux/ros2_ws/build/pub1-3
+[5.511s] -- Install configuration: ""
+[5.511s] -- Execute custom install script
+[5.511s] -- Symlinking: /home/linux/ros2_ws/install/pub1-3/lib/pub1-3/pub1-3
+[5.518s] -- Symlinking: /home/linux/ros2_ws/install/pub1-3/share/ament_index/resource_index/package_run_dependencies/pub1-3
+[5.524s] -- Symlinking: /home/linux/ros2_ws/install/pub1-3/share/ament_index/resource_index/parent_prefix_path/pub1-3
+[5.531s] -- Symlinking: /home/linux/ros2_ws/install/pub1-3/share/pub1-3/environment/ament_prefix_path.sh
+[5.538s] -- Symlinking: /home/linux/ros2_ws/install/pub1-3/share/pub1-3/environment/ament_prefix_path.dsv
+[5.544s] -- Symlinking: /home/linux/ros2_ws/install/pub1-3/share/pub1-3/environment/path.sh
+[5.550s] -- Symlinking: /home/linux/ros2_ws/install/pub1-3/share/pub1-3/environment/path.dsv
+[5.556s] -- Symlinking: /home/linux/ros2_ws/install/pub1-3/share/pub1-3/local_setup.bash
+[5.562s] -- Symlinking: /home/linux/ros2_ws/install/pub1-3/share/pub1-3/local_setup.sh
+[5.567s] -- Symlinking: /home/linux/ros2_ws/install/pub1-3/share/pub1-3/local_setup.zsh
+[5.573s] -- Symlinking: /home/linux/ros2_ws/install/pub1-3/share/pub1-3/local_setup.dsv
+[5.579s] -- Symlinking: /home/linux/ros2_ws/install/pub1-3/share/pub1-3/package.dsv
+[5.584s] -- Symlinking: /home/linux/ros2_ws/install/pub1-3/share/ament_index/resource_index/packages/pub1-3
+[5.590s] -- Symlinking: /home/linux/ros2_ws/install/pub1-3/share/pub1-3/cmake/pub1-3Config.cmake
+[5.595s] -- Symlinking: /home/linux/ros2_ws/install/pub1-3/share/pub1-3/cmake/pub1-3Config-version.cmake
+[5.602s] -- Symlinking: /home/linux/ros2_ws/install/pub1-3/share/pub1-3/package.xml
+[5.608s] Invoked command in '/home/linux/ros2_ws/build/pub1-3' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(ros2) /usr/bin/cmake --install /home/linux/ros2_ws/build/pub1-3
